@@ -3,25 +3,25 @@
     {
       "question": "Which is the most popular JavaScript framework?",
       "options": ["Angular", "React", "Svelte", "Vue"],
-      "correctOption": 1,
+      "correctOption": "React",
       "points": 10
     },
     {
       "question": "Which company invented React?",
       "options": ["Google", "Apple", "Netflix", "Facebook"],
-      "correctOption": 3,
+      "correctOption": "Facebook",
       "points": 10
     },
     {
       "question": "What's the fundamental building block of React apps?",
       "options": ["Components", "Blocks", "Elements", "Effects"],
-      "correctOption": 0,
+      "correctOption": "Components",
       "points": 10
     },
     {
       "question": "What's the name of the syntax we use to describe the UI in React components?",
       "options": ["FBJ", "Babel", "JSX", "ES2015"],
-      "correctOption": 2,
+      "correctOption": "JSX",
       "points": 10
     },
     {
@@ -32,13 +32,13 @@
         "Both ways",
         "The developers decides"
       ],
-      "correctOption": 0,
+      "correctOption": "From parents to children",
       "points": 10
     },
     {
       "question": "How to pass data into a child component?",
       "options": ["State", "Props", "PropTypes", "Parameters"],
-      "correctOption": 1,
+      "correctOption": "Props",
       "points": 10
     },
     {
@@ -49,7 +49,7 @@
         "Whenever the state should be accessible to all components",
         "Whenever the state can be computed from another state variable"
       ],
-      "correctOption": 3,
+      "correctOption": "Whenever the state can be computed from another state variable",
       "points": 30
     },
     {
@@ -60,7 +60,7 @@
         "Updating state",
         "Adding event listeners to DOM elements"
       ],
-      "correctOption": 2,
+      "correctOption": "Updating state",
       "points": 20
     },
     {
@@ -71,7 +71,7 @@
         "When we need to add styles",
         "Almost never"
       ],
-      "correctOption": 3,
+      "correctOption": "Almost never",
       "points": 20
     },
     {
@@ -82,7 +82,7 @@
         "When the state update should happen faster",
         "When the new state depends on the previous state"
       ],
-      "correctOption": 3,
+      "correctOption": "When the new state depends on the previous state",
       "points": 30
     },
     {
@@ -93,13 +93,13 @@
         "Only on the initial render",
         "The first time we update the state"
       ],
-      "correctOption": 2,
+      "correctOption": "Only on the initial render",
       "points": 30
     },
     {
       "question": "Which hook to use for an API request on the component's initial render?",
       "options": ["useState", "useEffect", "useRef", "useReducer"],
-      "correctOption": 1,
+      "correctOption": "useEffect",
       "points": 10
     },
     {
@@ -110,7 +110,7 @@
         "All state and props referenced in the effect",
         "All variables needed for clean up"
       ],
-      "correctOption": 2,
+      "correctOption": "All state and props referenced in the effect",
       "points": 30
     },
     {
@@ -121,7 +121,7 @@
         "False",
         "In depends on the code in the effect"
       ],
-      "correctOption": 0,
+      "correctOption": "True",
       "points": 30
     },
     {
@@ -132,7 +132,7 @@
         "The first time the component re-renders",
         "Each time the component is re-rendered"
       ],
-      "correctOption": 3,
+      "correctOption": "Each time the component is re-rendered",
       "points": 20
     }
   ]

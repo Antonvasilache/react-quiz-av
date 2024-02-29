@@ -1,18 +1,20 @@
-function Options({ question, dispatch, answer }) {
-  const randomizeQuestion = function (array) {
-    return array
-      .map((value) => ({ value, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value);
-  };
+import { useQuiz } from "../context/QuizContext";
+
+function Options({ question }) {
+  const { dispatch, answer, answersArray, index } = useQuiz();
 
   return (
     <div className="options">
-      {question.options.map((option, index) => (
+      {question.options.map((option) => (
         <button
-          className={`btn btn-option ${index === answer ? "answer" : ""} `}
+          className={`btn btn-option ${
+            option === answer ||
+            (answersArray.at(index) && option === answersArray.at(index).at(1))
+              ? "answer"
+              : ""
+          } `}
           key={option}
-          onClick={() => dispatch({ type: "newAnswer", payload: index })}
+          onClick={() => dispatch({ type: "newAnswer", payload: option })}
         >
           {option}
         </button>
