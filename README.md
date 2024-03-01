@@ -7,7 +7,7 @@ This is an application for playing a quiz game, where you can answer a series of
 Randomization for the questions order and the options order on each run.  
 Moving back and forth between questions so you can change your answers.  
 Timer on screen - the game ends if time runs out.  
-Highscore at the end of the game - persists by being stored in local storage.  
+Highscore at the end of the game - persists between runs.
 Can restart and retry (try to beat your highscore! 🙂)  
 
 
